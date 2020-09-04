@@ -10,7 +10,7 @@ public class Primer{
 
         try {
             String datos = "0.7272727, sin";
-            URL site = new URL("https://parcial-arep-1.herokuapp.com/calcular?datos=" + datos);
+            URL site = new URL("https://parcial-arep-1st.herokuapp.com/calcular?datos=" + datos);
             Scanner leer = new Scanner(site.openStream());
             StringBuffer rta = new StringBuffer();
             while (leer.hasNext()) {
